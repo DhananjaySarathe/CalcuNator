@@ -1,0 +1,57 @@
+*{
+    background-color: #070070;
+background-image: url(http://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.dice{
+    background-color: rgb(141, 9, 9);
+    display:inline;
+    margin: 2%;
+    width: fit-content;
+    height: fit-content;
+}
+
+.big{
+    margin-top: 1.5rem;
+    height: 12%;
+    width: 12%;
+}
+.small{
+    height: 9%;
+    width: 9%;
+}
+
+.DiceBoard{
+    margin-top: 2rem;
+    border: 2px solid black;
+}
+
+.Btnroll{
+    border: 5px solid black;
+    text-align: center;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    font-size: 55px;
+    height: 6%;
+    width:  15%;
+    background-color: #00364a;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+}
+
+.Box{
+    display:inline-block;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.3rem;
+    font-weight:800;
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    padding: 2.9%;
+    border: 2px solid black;
+}
+
+.Row{
+    margin-right:0rem;
+    margin-left: 1rem;
+}
